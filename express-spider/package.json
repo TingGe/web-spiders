@@ -1,0 +1,31 @@
+{
+  "name": "node-spider",
+  "version": "1.0.0",
+  "description": "node web spider",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-debug ./app.js",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TingGe/tingge.github.io.git"
+  },
+  "keywords": [
+    "node",
+    "web",
+    "spider",
+    "crawler"
+  ],
+  "author": "TingGe <505253293@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TingGe/tingge.github.io/issues"
+  },
+  "homepage": "https://github.com/TingGe/tingge.github.io#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "express": "^4.14.0",
+    "superagent": "^2.0.0"
+  }
+}

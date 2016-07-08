@@ -1,0 +1,38 @@
+{
+  "name": "koa2-app",
+  "version": "1.0.0",
+  "description": "koa2 example",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-debug ./index.js",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TingGe/tingge.github.io.git"
+  },
+  "keywords": [
+    "koa2",
+    "example",
+    "babel",
+    "es2015"
+  ],
+  "author": "TingGe <505253293@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TingGe/tingge.github.io/issues"
+  },
+  "homepage": "https://github.com/TingGe/tingge.github.io#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "eventproxy": "^0.3.4",
+    "koa": "^2.0.0",
+    "koa-router": "^5.4.0",
+    "superagent": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-preset-es2015-node5": "^1.2.0",
+    "babel-preset-stage-3": "^6.5.0"
+  }
+}
